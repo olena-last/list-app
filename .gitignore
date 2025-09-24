@@ -27,3 +27,9 @@ prisma/dev.db          # if you use SQLite for local dev
 # MacOS / Linux system files
 .DS_Store
 Thumbs.db
+
+.env.local
+
+# Prisma generated client
+/prisma/generated/
+/app/generated/prisma/
